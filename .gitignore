@@ -1,0 +1,6 @@
+app/assets/
+app/protected/runtime/
+app/themes/classic/views/
+framework/
+nbproject/
+requirements/
