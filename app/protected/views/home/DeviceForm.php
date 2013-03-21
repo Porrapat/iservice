@@ -25,10 +25,7 @@
             <?php echo $form->labelEx($model, "device_code"); ?>
             <?php echo $form->textField($model, "device_code"); ?>
         </div>
-        <div>
-            <?php echo $form->labelEx($model, "device_record_code"); ?>
-            <?php echo $form->textField($model, "device_record_code"); ?>
-        </div>
+       
         <div>
             <?php echo $form->labelEx($model, "device_price"); ?>
             <?php echo $form->textField($model, "device_price", array("size" => 5)); ?>

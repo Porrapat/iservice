@@ -16,7 +16,7 @@ class Device extends CActiveRecord {
             "device_name" => "ชื่อ",
             "device_brand_name" => "ยี่ห้อ",
             "device_code" => "code",
-            "device_record_code" => "เลขทะเบียนสินทรัพย์",
+            //"device_record_code" => "เลขทะเบียนสินทรัพย์",
             "device_price" => "ราคาซื้อ",
             "device_created_date" => "วันที่บันทึก",
             "device_buy_date" => "วันที่ซื้อ",
