@@ -1,9 +1,16 @@
 <div class="panel">
     <?php echo $this->beginContent("/home/toolbar", array("current" => 2)); ?>
     <?php echo $this->endContent(); ?>
-
     <div class="panel_body">
         <div class="header-danger">รายการที่ยังไม่ปิดงาน</div>
+        
+        <br/>
+        
+        <?php
+		
+			print_r(Device::getOptions());
+		?>
+        
         <?php
         $this->widget('zii.widgets.grid.CGridView', array(
             'id' => 'request-grid',

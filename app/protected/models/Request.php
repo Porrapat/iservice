@@ -13,7 +13,8 @@ class Request extends CActiveRecord {
     public function rules() {
         return array(
             array("request_problem, request_detail", "required"),
-            array("request_problem", "length", "max" => 1000)
+            array("request_problem", "length", "max" => 1000),
+			array("device_id", "numerical", "min"=>1)
         );
     }
 

@@ -11,7 +11,7 @@
         ?>
         <div>
             <?php echo $form->labelEx($model, "device_id"); ?>
-            <?php echo $form->dropdownList($model, "device_id", Device::getOptions()); ?>
+            <?php echo $form->dropdownList($model, "device_id", array_merge(array('0'=>'Select'),Device::getOptions())); ?>
         </div>
         <div>
             <?php echo $form->labelEx($model, "request_problem"); ?>
