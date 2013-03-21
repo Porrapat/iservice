@@ -163,8 +163,8 @@ class HomeController extends Controller {
             }
             
             // do repair
-            $model->request_repair_detail_work = $_POST["request_repair_detail_work"];
-            $model->request_answer = $_POST["request_answer"];
+            //$model->request_repair_detail_work = $_POST["request_repair_detail_work"];
+            //$model->request_answer = $_POST["request_answer"];
             
             // do clame
             if (!empty($_POST["clame"])) {
